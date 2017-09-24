@@ -20,7 +20,13 @@ class WP_Snapcam_About {
 	}
 	
 	public function add_about_page() {
-		add_submenu_page( 'wp-snapcam', 'About wp-snapcam', 'About wp-snapcam', 'activate_plugins', 'wp-snapcam-about', array( $this, 'about' ) );
+		add_submenu_page( 'wp-snapcam',
+			__( 'About', 'wp-snapcam' ),
+			__( 'About', 'wp-snapcam' ),
+			'activate_plugins',
+			'wp-snapcam-about',
+			array( $this, 'about' )
+		);
 	}
 
 

@@ -10,12 +10,10 @@
 class WP_Snapcam_Menu {
 
 	private $wp_snapcam_options;
-	private $default_options;
 	private $wp_snapcam;
 
 	public function __construct( $wp_snapcam ) {
 		$this->wp_snapcam_options = $wp_snapcam->wp_snapcam_options; 
-		$this->default_options = $wp_snapcam->default_options;
 		$this->wp_snapcam = $wp_snapcam;
 	}
 
@@ -41,8 +39,11 @@ class WP_Snapcam_Menu {
 		register_setting( 'wp-snapcam', 'wp_snapcam_options', array( $this, 'sanitize_options' ) );
 		add_settings_section( 'wp-snapcam-options', '', array( $this, 'settings_section' ), 'wp-snapcam' );
 
+		/* Include default options */
+		require_once plugin_dir_path( dirname( __FILE__ ) ) . 'includes/default-options.php';
+
 		/* Loop around all default options to add all settings fields */
-		foreach ( $this->default_options as $key => $option ) {
+		foreach ( $GLOBALS['wp_snapcam_default_options'] as $key => $option ) {
 			foreach ( $option as $key => $value ) {
 				if ( $key === 'name' ) {
 					add_settings_field(
@@ -65,7 +66,7 @@ class WP_Snapcam_Menu {
 
 	public function sanitize_options( $args ) {
 		/* Format specific to checkbox inside this foreach */
-		foreach ( $this->default_options as $key => $option ) {
+		foreach ( $GLOBALS['wp_snapcam_default_options'] as $key => $option ) {
 			if ( $option['type'] === 'checkbox' ) {
 				if ( ! isset( $args[$option['name']] ) ) {
 					/* When checkbox is unchecked, form send nothing so we have to set it to 0 manually */

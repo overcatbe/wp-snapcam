@@ -15,7 +15,7 @@
  * Plugin Name:       WP Snapcam
  * Plugin URI:        https://wordpress.org/plugins/wp-snapcam/
  * Description:       WP Snapcam allows your visitors to take a snap using webcam and send it to your WordPress server.
- * Version:           0.1
+ * Version:           0.2
  * Author:            Infogérance Serveur
  * Author URI:        https://mnt-tech.fr/
  * License:           GPL-2.0+
@@ -32,7 +32,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Define version, name and db_version
  */
-define( 'WP_SNAPCAM_VERSION', '0.1' );
+define( 'WP_SNAPCAM_VERSION', '0.2' );
 define( 'WP_SNAPCAM_NAME', 'WP_SNAPCAM' );
 define( 'WP_SNAPCAM_DB_VERSION', '0.1' );
 
@@ -40,21 +40,16 @@ if ( ! defined( 'WP_SNAPCAM_LOAD_CSS' ) ) {
 	define( 'WP_SNAPCAM_LOAD_CSS', true );
 }
 
-/* include all options */
-require_once plugin_dir_path( __FILE__ ) . 'includes/default-options.php';
-
 /**
  * The code that runs during plugin activation.
  * This action is documented in includes/class-wp-snapcam-activator.php
  */
-function activate_wp_snapcam( $default_options ) {
+function activate_wp_snapcam() {
 	require_once plugin_dir_path( __FILE__ ) . 'includes/class-wp-snapcam-activator.php';
-	$wp_snapcam_activator = new WP_Snapcam_Activator( $default_options );
+	$wp_snapcam_activator = new WP_Snapcam_Activator();
 	$wp_snapcam_activator->activate();
 }
-register_activation_hook( __FILE__,function()use( $default_options ) { 
-	   return activate_wp_snapcam( $default_options );       
-});
+register_activation_hook( __FILE__, 'activate_wp_snapcam' );
 
 /**
  * The code that runs during plugin deactivation.
@@ -81,4 +76,4 @@ require plugin_dir_path( __FILE__ ) . 'includes/class-wp-snapcam.php';
  *
  * @since    0.1
  */
-$wp_snapcam = new WP_Snapcam( $default_options );
+$wp_snapcam = new WP_Snapcam();

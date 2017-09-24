@@ -2,50 +2,56 @@
 # This file is distributed under the same license as the WP Snapcam package.
 msgid ""
 msgstr ""
-"Project-Id-Version: WP Snapcam 0.2\n"
+"Project-Id-Version: WP Snapcam 0.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/wp-snapcam\n"
 "POT-Creation-Date: 2017-09-24 16:38:19+00:00\n"
+"PO-Revision-Date: 2017-09-24 18:41+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: fr_FR\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"PO-Revision-Date: 2017-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
 #: admin/class-wp-snapcam-about.php:24 admin/class-wp-snapcam-about.php:25
 msgid "About"
-msgstr ""
+msgstr "A propos"
 
 #: admin/class-wp-snapcam-about.php:35
 msgid "How to use it ?"
-msgstr ""
+msgstr "Comment ça marche ?"
 
 #: admin/class-wp-snapcam-about.php:36
 msgid "Informations"
-msgstr ""
+msgstr "Informations"
 
 #: admin/class-wp-snapcam-about.php:37
 msgid "Help me"
-msgstr ""
+msgstr "Aidez-moi"
 
 #: admin/class-wp-snapcam-about.php:51
 msgid "Welcome to WP Snapcam %s"
-msgstr ""
+msgstr "Bienvenue dans WP Snapcam %s"
 
 #: admin/class-wp-snapcam-about.php:52
 msgid ""
 "Thank you for using WP Snapcam %s, be careful, this version is still in beta."
 msgstr ""
+"Merci d'utiliser WP Snapcam %s, attention, cette version est encore en beta."
 
 #: admin/class-wp-snapcam-about.php:72
 msgid ""
 "You just installed WP Snapcam, Let me explain how to use it in two simple "
 "steps !"
 msgstr ""
+"Vous venez d'installer WP Snapcam, Je vais vous expliquer comment l'utiliser "
+"en deux étapes !"
 
 #: admin/class-wp-snapcam-about.php:75
 msgid "1. Add the widget in one of your sidebar."
-msgstr ""
+msgstr "1. Ajoutez le widget dans l'une de vos sidebar."
 
 #: admin/class-wp-snapcam-about.php:76
 msgid ""
@@ -55,14 +61,20 @@ msgid ""
 "moment you absolutely need it ! So go to Appereance &raquo; Widgets and drag "
 "and drop the WP Snapcam widget to one of your sidebar. "
 msgstr ""
+"Tout commence à partir du widget. C'est, pour le moment, le seul endroit "
+"permettant de présenter le lien pour prendre un nouveau snap et le lien vers "
+"la galerie publique. Plus tard, il y aura sûrement un shortcode ou autre "
+"chose pour cela mais pour le moment vous devez absolument l'utiliser pour "
+"utiliser WP Snapcam. Il vous faut donc aller dans le menu Apparence &raquo; "
+"Widgets et faire glisser le widget WP Snapcam dans l'une de vos sidebars. "
 
 #: admin/class-wp-snapcam-about.php:77
 msgid "Widgets menu"
-msgstr ""
+msgstr "Allez au menu Widgets"
 
 #: admin/class-wp-snapcam-about.php:80
 msgid "2. Go to options menu to adjust settings."
-msgstr ""
+msgstr "2. Allez dans le menu réglages pour modifier les options."
 
 #: admin/class-wp-snapcam-about.php:81
 msgid ""
@@ -73,19 +85,27 @@ msgid ""
 "same way as comments. Once a snap is sent, you need to go to admin gallery "
 "and to switch it from hide to visible and it will appear on public gallery. "
 msgstr ""
+"Je sais, pour le moment il y a peu d'options mais certaines sont très "
+"importantes comme le nombre de snaps dans la galerie admin et la galerie "
+"publique ou encore le fait de choisir où les liens des utilisateurs sont "
+"ajoutés. Par exemple, vous pouvez choisir si vous préférez valider les snaps "
+"avant qu'ils apparaissent dans la galerie publique. Cela fonctionne de la "
+"même manière que les commentaires. Lorsqu'un nouveau snap est pris, il faut "
+"aller dans la galerie admin et le passer en \"visible\" pour qu'il soit "
+"accessible dans la galerie publique. "
 
 #: admin/class-wp-snapcam-about.php:82 admin/class-wp-snapcam-menu.php:22
 #: admin/class-wp-snapcam-menu.php:29
 msgid "WP Snapcam options"
-msgstr ""
+msgstr "WP Snapcam réglages"
 
 #: admin/class-wp-snapcam-about.php:86
 msgid "You're done, have fun !"
-msgstr ""
+msgstr "C'est fini, amusez vous bien !"
 
 #: admin/class-wp-snapcam-about.php:94
 msgid "Who the heck is Emma ?!"
-msgstr ""
+msgstr "Mais qui donc est cette Emma ?!"
 
 #: admin/class-wp-snapcam-about.php:95
 msgid ""
@@ -95,10 +115,16 @@ msgid ""
 "you can safely delete it or you can keep it as a reminder when you first "
 "install WP Snapcam."
 msgstr ""
+"Lorsque vous installez WP Snapcam pour la première fois, cela ajoute un faux "
+"snap dans la base de données afin de donner envie à vos utilisateurs de "
+"prendre un snap. J'ai choisi ce nom et cette photo (Open source) de manière "
+"aléatoire donc il n'y a pas vraiment de réponse à cette question ;) Vous "
+"pouvez donc supprimer ce snap ou le garder afin de garder la date exacte à "
+"laquelle vous avez installé WP Snapcam pour la première fois."
 
 #: admin/class-wp-snapcam-about.php:98
 msgid "Shortcodes."
-msgstr ""
+msgstr "Shortcodes."
 
 #: admin/class-wp-snapcam-about.php:99
 msgid ""
@@ -108,10 +134,16 @@ msgid ""
 "you can use anywhere to display public gallery. You just need to add this to "
 "one post or page : "
 msgstr ""
+"Lorsque vous installez WP Snapcam pour la première fois cela ajoute une page "
+"contenant la galerie publique. Cette page est ensuite lié au widget afin que "
+"vos visiteurs puissent la voir. Sous le capot cette page contient un simple "
+"shortcode qui permet d'afficher la galerie publique. Si vous voulez ajoutez "
+"la galerie à un autre endroit, il vous suffit d'ajouter cela dans un article "
+"ou une page : "
 
 #: admin/class-wp-snapcam-about.php:103
 msgid "For developers."
-msgstr ""
+msgstr "Pour les développeurs."
 
 #: admin/class-wp-snapcam-about.php:104
 msgid ""
@@ -121,24 +153,33 @@ msgid ""
 "broken and not responsive. You can activate this options by addind this line "
 "in your %2$s : "
 msgstr ""
+"Pour le moment, j'ai deux options pour les développeurs, la première permet "
+"de ne pas charger le fichier CSS quand la galerie publique est affichée. "
+"Vous devrez donc ajouter le contenu du fichier %1$s dans votre propre CSS "
+"sinon la galerie publique sera mal affichée et non responsive. Vous pouvez "
+"activer cette option en ajoutant cette ligne dans votre %2$s : "
 
 #: admin/class-wp-snapcam-about.php:106
 msgid ""
 "The second one is an action hook you can trigger after a snap is succesfully "
 "inserted in database. This is action is %1$s and you ca use it like this : "
 msgstr ""
+"La deuxième concerne un action hook que vous pouvez déclencher après qu'un "
+"snap soit inséré dans la base de données. Cette action est %1$s et vous "
+"pouvez l'utiliser comme ceci : "
 
 #: admin/class-wp-snapcam-about.php:120
 msgid "Stay here, I'm not going to ask you money !"
-msgstr ""
+msgstr "Restez là, je ne vais pas vous demander d'argent !"
 
 #: admin/class-wp-snapcam-about.php:122
 msgid "How can you help me then ? You have different possibilities..."
 msgstr ""
+"Comment pouvez vous m'aider alors ? Vous avez différentes possibilités..."
 
 #: admin/class-wp-snapcam-about.php:125
 msgid "First things first, track bugs !"
-msgstr ""
+msgstr "Première chose, traquez les bugs !"
 
 #: admin/class-wp-snapcam-about.php:126
 msgid ""
@@ -148,14 +189,20 @@ msgid ""
 "help me reproduce it. I'll do my best to correct it. If this is a security "
 "issue, please use my email : kevin at mnt dash tech dot fr "
 msgstr ""
+"Comme vous pouvez le voir, c'est encore une version en beta, je suis donc "
+"convaincu qu'il existe des bugs. Si vous en trouvez un, s'il vous plaît, "
+"ouvrez un nouveau sujet sur le forum de support sur WordPress. Utilisez un "
+"maximum de détails afin que je puisse reproduire le problème. Je ferai de "
+"mon mieux pour le corriger. Si c'est un problème de sécurité, veuillez "
+"plutôt utiliser mon adresse mail : kevin at mnt dash tech dot fr "
 
 #: admin/class-wp-snapcam-about.php:127 admin/class-wp-snapcam-about.php:136
 msgid "WP Snapcam support forum"
-msgstr ""
+msgstr "Forum de support de WP Snapcam"
 
 #: admin/class-wp-snapcam-about.php:130
 msgid "Translate this plugin"
-msgstr ""
+msgstr "Traduire ce plugin"
 
 #: admin/class-wp-snapcam-about.php:131
 msgid ""
@@ -166,10 +213,17 @@ msgid ""
 "mistakes or some sentences could be weird. Yous can help me with that too. "
 "You just have to send it to my email : kevin at mnt dash tech dot fr. "
 msgstr ""
+"Si vous pouvez traduire dans votre propre langage cela m'aiderait beaucoup ! "
+"La seule chose que vous devez utiliser pour cela est le fichier wp-snapcam."
+"pot dans le dossier languages. Vous pouvez alors créer un nouveau projet de "
+"traduction avec Poedit ou votre éditeur préféré de fichier po. Par ailleurs, "
+"l'anglais n'est pas ma langue native, j'ai donc sûrement commis quelques "
+"erreurs ou formulé mes phrases bizarrement. Vous pouvez donc m'aidez avec "
+"cela aussi. Vous pouvez m'envoyer un mail sur kevin at mnt dash tech dot fr. "
 
 #: admin/class-wp-snapcam-about.php:134
 msgid "Any ideas ?"
-msgstr ""
+msgstr "D'autres idées ?"
 
 #: admin/class-wp-snapcam-about.php:135
 msgid ""
@@ -177,11 +231,15 @@ msgid ""
 "anything. Let me know ! If this is a good one and I can make it I'll add it. "
 "For anything like this, use Wordpress support forum here : "
 msgstr ""
+"Si vous avez des idées pour améliorer ce plugin, nouvelle option, nouvelle "
+"fonctionnalité, autre, faîtes le moi savoir ! Si c'est une bonne idée et que "
+"je peux le faire, je l'ajouterai. Pour cela, veuillez utiliser le forum de "
+"support de WP Snapcam : "
 
 #: admin/class-wp-snapcam-about.php:139
 #: admin/class-wp-snapcam-admin-gallery.php:80
 msgid "Link"
-msgstr ""
+msgstr "Lien"
 
 #: admin/class-wp-snapcam-about.php:140
 msgid ""
@@ -192,90 +250,96 @@ msgid ""
 "(I'm a freelance sysadmin in Paris). Here is an example in French but you "
 "can modify the anchor according to your language :"
 msgstr ""
+"Si vous voulez m'aidez mais que vous n'avez pas le temps ou les compétences "
+"pour faire une de ces actions vous pouvez m'aidez à gagner du temps en "
+"ajoutant un simple lien sur votre site web. Vous pouvez l'ajouter où vous le "
+"souhaitez. Cela m'aidera à être mieux classé dans la moteurs de recherche et "
+"je passerai ainsi moins de temps à chercher de nouveau client pour ma "
+"société, je suis administrateur système en Freelance à Paris. Voici un "
+"exemple de lien :"
 
 #: admin/class-wp-snapcam-admin-gallery.php:78
 #: public/class-wp-snapcam-public.php:114
 msgid "Name"
-msgstr ""
+msgstr "Nom"
 
 #: admin/class-wp-snapcam-admin-gallery.php:79
 msgid "Date"
-msgstr ""
+msgstr "Date"
 
 #: admin/class-wp-snapcam-admin-gallery.php:81
 msgid "Visible"
-msgstr ""
+msgstr "Visible"
 
 #: admin/class-wp-snapcam-admin-gallery.php:144
 msgid "Delete snap"
-msgstr ""
+msgstr "Supprimer ce snap"
 
 #: admin/class-wp-snapcam-admin-gallery.php:145
 #: admin/class-wp-snapcam-admin-gallery.php:182
 msgid "Edit"
-msgstr ""
+msgstr "Éditer"
 
 #: admin/class-wp-snapcam-admin-gallery.php:187
 msgid "No link"
-msgstr ""
+msgstr "Pas de lien"
 
 #: admin/class-wp-snapcam-admin-gallery.php:231
 #: admin/class-wp-snapcam-admin-gallery.php:250
 msgid "Hide"
-msgstr ""
+msgstr "Cacher"
 
 #: admin/class-wp-snapcam-admin-gallery.php:232
 #: admin/class-wp-snapcam-admin-gallery.php:249
 msgid "Show"
-msgstr ""
+msgstr "Montrer"
 
 #: admin/class-wp-snapcam-admin-gallery.php:237
 msgid "Yes"
-msgstr ""
+msgstr "Oui"
 
 #: admin/class-wp-snapcam-admin-gallery.php:240
 msgid "No"
-msgstr ""
+msgstr "Non"
 
 #: admin/class-wp-snapcam-admin-gallery.php:248
 msgid "Delete"
-msgstr ""
+msgstr "Supprimer"
 
 #: admin/class-wp-snapcam-admin-gallery.php:328
 #: admin/class-wp-snapcam-menu.php:142
 msgid "Sorry, you are not allowed to access this page."
-msgstr ""
+msgstr "Désolé, vous n'êtes pas autorisé à voir cette page."
 
-#. #-#-#-#-#  wp-snapcam.pot (WP Snapcam 0.2)  #-#-#-#-#
 #. Plugin Name of the plugin/theme
 #: admin/class-wp-snapcam-menu.php:23 public/class-wp-snapcam-widget.php:141
 #: public/class-wp-snapcam-widget.php:183
 msgid "WP Snapcam"
-msgstr ""
+msgstr "WP Snapcam"
 
 #: admin/class-wp-snapcam-menu.php:31
 msgid "Options"
-msgstr ""
+msgstr "Réglages"
 
 #: admin/class-wp-snapcam-menu.php:147
 msgid "Settings Saved"
-msgstr ""
+msgstr "Options sauvées"
 
 #: admin/class-wp-snapcam-menu.php:188
 msgid "General Settings"
-msgstr ""
+msgstr "Réglages généraux"
 
 #: admin/class-wp-snapcam-menu.php:189 public/class-wp-snapcam-widget.php:184
 msgid "Gallery"
-msgstr ""
+msgstr "Galerie"
 
 #: includes/class-wp-snapcam-activator.php:203
 msgid "WP Snapcam Gallery"
-msgstr ""
+msgstr "Galerie WP Snapcam"
 
 #: includes/default-options.php:11
 msgid "Snaps per page in public gallery"
-msgstr ""
+msgstr "Snaps par page dans la galerie publique"
 
 #: includes/default-options.php:12
 msgid ""
@@ -283,178 +347,197 @@ msgid ""
 "is the number of snap per page. Then number of columns and row will "
 "automatically be adjusted to fit your theme."
 msgstr ""
+"La galerie publique est totalement responsive donc seul le nombre de snaps "
+"par page est important. Le nombre de colonnes et de lignes s'adaptera "
+"automatiquement à votre thème."
 
 #: includes/default-options.php:23
 msgid "Snap in widget"
-msgstr ""
+msgstr "Snap dans le widget"
 
 #: includes/default-options.php:24
 msgid "Choose wether you want to print last snap in widget or a random one."
-msgstr ""
+msgstr "Choisissez d'afficher le dernier ou un snap aléatoire dans le widget."
 
 #: includes/default-options.php:26
 #: public/class-wp-snapcam-public-gallery.php:158
 msgid "last"
-msgstr ""
+msgstr "dernière"
 
 #: includes/default-options.php:27
 msgid "random"
-msgstr ""
+msgstr "aléatoire"
 
 #: includes/default-options.php:34
 msgid "Where links work"
-msgstr ""
+msgstr "Où les liens sont actifs"
 
 #: includes/default-options.php:35
 msgid "Choose where user submited links will be displayed."
-msgstr ""
+msgstr "Choisissez où les liens soumis par vos utilisateurs seront actifs."
 
 #: includes/default-options.php:37
 msgid "widget only"
-msgstr ""
+msgstr "Seulement dans le widget"
 
 #: includes/default-options.php:38
 msgid "gallery only"
-msgstr ""
+msgstr "Seulement dans la galerie"
 
 #: includes/default-options.php:39
 msgid "both"
-msgstr ""
+msgstr "Les deux"
 
 #: includes/default-options.php:46
 msgid "Snaps must be manually approved"
-msgstr ""
+msgstr "Les snaps doivent être approuvés manuellement"
 
 #: includes/default-options.php:47
 msgid ""
 "Tick this option if you prefer to review snaps before they go live. You'll "
 "have to change visibility in admin gallery for every snap."
 msgstr ""
+"Cochez cette option si vous préférez vérifier les snaps avant qu'ils soient "
+"affichés. Vous devrez les approuvez manuellement dans la galerie admin pour "
+"qu'ils soient visibles."
 
 #: includes/default-options.php:54
 msgid "Load widget using ajax"
-msgstr ""
+msgstr "Chargement du widget en ajax"
 
 #: includes/default-options.php:55
 msgid ""
 "This option is usefull if you're using cache plugin like W3 Total Cache or "
 "WP Super Cache. In doubt, just let this option ticked."
 msgstr ""
+"Cette option est utilise si vous utilisez un plugin de cache comme W3 Total "
+"Cache ou WP Super Cache. Dans le doute, laissez cette option cochée."
 
 #: includes/default-options.php:62
 msgid "Snaps per page in admin gallery"
-msgstr ""
+msgstr "Snaps par page dans la galerie admin"
 
 #: includes/default-options.php:63
 msgid ""
 "This option sets the number of snaps you want to show per page in admin "
 "gallery. Nothing related to the public gallery !"
 msgstr ""
+"Cette option définit le nombre de snaps qui seront affichés dans la galerie "
+"admin. Rien à voir avec la galerie publique !"
 
 #: includes/default-options.php:74
 msgid "Support me"
-msgstr ""
+msgstr "Aidez moi"
 
 #: includes/default-options.php:75
 msgid ""
 "Thick this option if you want to help me. This will add a link to plugin "
 "page in widget's title"
 msgstr ""
+"Cochez cette option si vous voulez m'aider. Cela ajoutera un lien vers la "
+"page du plugin dans le titre du widget"
 
 #: public/class-wp-snapcam-public-gallery.php:102
 msgid "Sorry, no snap in this gallery"
-msgstr ""
+msgstr "Désolé, pas de snap dans cette galerie"
 
 #: public/class-wp-snapcam-public-gallery.php:157
 msgid "first"
-msgstr ""
+msgstr "première"
 
 #: public/class-wp-snapcam-public-gallery.php:193
 msgid "of"
-msgstr ""
+msgstr "sur"
 
 #: public/class-wp-snapcam-public.php:115
 msgid "John"
-msgstr ""
+msgstr "Jean"
 
 #: public/class-wp-snapcam-public.php:116
 msgid "Website (not required)"
-msgstr ""
+msgstr "Site web (non requis)"
 
 #: public/class-wp-snapcam-public.php:117
 msgid "www.example.com"
-msgstr ""
+msgstr "www.example.com"
 
 #: public/class-wp-snapcam-public.php:119
 msgid "Take snapshot"
-msgstr ""
+msgstr "Prendre un snap"
 
 #: public/class-wp-snapcam-public.php:122
 msgid "Take another"
-msgstr ""
+msgstr "Prendre un autre"
 
 #: public/class-wp-snapcam-public.php:123
 msgid "Send it"
-msgstr ""
+msgstr "Envoyez"
 
 #: public/class-wp-snapcam-public.php:144
 msgid "Add a name !"
-msgstr ""
+msgstr "Ajoutez un nom !"
 
 #: public/class-wp-snapcam-public.php:147
 msgid "Your name is too short. Min 3 characters."
-msgstr ""
+msgstr "Votre nom est trop court. Min 3 caractères."
 
 #: public/class-wp-snapcam-public.php:150
 msgid "Your name is too long. Max 40 characters."
-msgstr ""
+msgstr "Votre nom est trop long. Max 40 caractères."
 
 #: public/class-wp-snapcam-public.php:157
 msgid "Website is invalid."
-msgstr ""
+msgstr "Site web invalide."
 
 #: public/class-wp-snapcam-public.php:160
 msgid "Website is too long. Max 200 characters."
-msgstr ""
+msgstr "Site web trop long. Max 200 caractères."
 
 #: public/class-wp-snapcam-public.php:184
 msgid ""
 "Something gone wrong, your snap was not properly sent. Try send it again. "
 "The error code was: "
 msgstr ""
+"Something gone wrong, your snap was not properly sent. Try send it again. "
+"The error code was: "
 
 #: public/class-wp-snapcam-widget.php:43
 msgid "WP Snapcam Widget"
-msgstr ""
+msgstr "WP Snapcam Widget"
 
 #: public/class-wp-snapcam-widget.php:45
 msgid ""
 "You need this widget to use WP Snapcam. It will display link to take a snap, "
 "last or random snap, link to the gallery."
 msgstr ""
+"Vous devez utiliser ce widget pour utiliser WP Snapcam. Il permet d'afficher "
+"un lien pour prendre un snap, le dernier ou un snap aléatoire et un lien "
+"vers la galerie publique."
 
 #: public/class-wp-snapcam-widget.php:144
 msgid "Title:"
-msgstr ""
+msgstr "Titre :"
 
 #: public/class-wp-snapcam-widget.php:183
 msgid "Take a snap !"
-msgstr ""
+msgstr "Prendre un snap !"
 
 #. Plugin URI of the plugin/theme
 msgid "https://wordpress.org/plugins/wp-snapcam/"
-msgstr ""
+msgstr "https://wordpress.org/plugins/wp-snapcam/"
 
 #. Description of the plugin/theme
 msgid ""
 "WP Snapcam allows your visitors to take a snap using webcam and send it to "
 "your WordPress server."
 msgstr ""
+"WP Snapcam permet à vos visiteurs de prendre un snap en utilisant leur "
+"webcam et de l'envoyer sur votre serveur WordPress."
 
 #. Author of the plugin/theme
 msgid "Infogérance Serveur"
-msgstr ""
+msgstr "Infogérance Serveur"
 
 #. Author URI of the plugin/theme
 msgid "https://mnt-tech.fr/"
-msgstr ""
+msgstr "https://mnt-tech.fr/"

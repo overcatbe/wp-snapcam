@@ -1,5 +1,4 @@
 <?php
-
 /**
  * The core plugin class.
  *
@@ -43,15 +42,6 @@ class WP_Snapcam {
     public $wp_snapcam_options = array();
 
 	/**
-	 * All default options in one array. 
-	 *
-	 * @since    0.1
-	 * @access   public
-	 * @var      array
-	 */
-    public $default_options = array();
-
-	/**
 	 * Define the core functionality of the plugin.
 	 *
 	 * Load the dependencies, define the locale, and set the hooks for the admin area and
@@ -59,8 +49,7 @@ class WP_Snapcam {
 	 *
 	 * @since    0.1
 	 */
-	public function __construct( $default_options = null ) {
-		$this->default_options = $default_options;
+	public function __construct() {
 		$this->load_settings();
 		$this->load_options();
 		$this->load_dependencies();

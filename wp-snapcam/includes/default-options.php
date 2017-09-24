@@ -3,7 +3,7 @@
 /**
  * Define all options
  */
-$default_options = array(
+$GLOBALS['wp_snapcam_default_options'] = array(
 	array(
 		'name'              => 'snaps_per_page_public',
 		'type'              => 'number',
@@ -22,7 +22,10 @@ $default_options = array(
 		'default'           => 'last',
 		'short_description' => __( 'Snap in widget', 'wp-snapcam' ),
 		'long_description'  => __( 'Choose wether you want to print last snap in widget or a random one.', 'wp-snapcam' ),
-		'values'            => array ( 'last', 'random' )
+		'values'            => array (
+								__( 'last', 'wp-snapcam' ),
+								__( 'random', 'wp-snapcam' )
+							)
 	),
 	array(
 		'name'              => 'link',
@@ -30,7 +33,11 @@ $default_options = array(
 		'default'           => 'both',
 		'short_description' => __( 'Where links work', 'wp-snapcam' ),
 		'long_description'  => __( 'Choose where user submited links will be displayed.', 'wp-snapcam' ),
-		'values'            => array ( 'widget only', 'gallery only', 'both' )
+		'values'            => array (
+								__( 'widget only', 'wp-snapcam' ),
+								__( 'gallery only', 'wp-snapcam' ),
+								__( 'both', 'wp-snapcam')
+							)
 	),
 	array(
 		'name'              => 'moderate',

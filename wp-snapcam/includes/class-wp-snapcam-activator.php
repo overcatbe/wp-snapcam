@@ -72,12 +72,14 @@ class WP_Snapcam_Activator {
 	 * @return object
 	 * @since 0.1
 	 */
-	public function __construct( $default_options ) {
+	public function __construct() {
 		global $wpdb;
 		$this->db =& $wpdb;
 		$this->table = $this->db->prefix . "snapcam";
 		$this->posts = $this->db->prefix . "posts";
-		$this->default_options = $default_options;
+		/* Include default options */
+		require_once plugin_dir_path( __FILE__ ) . 'default-options.php';
+		$this->default_options = $GLOBALS['wp_snapcam_default_options'];
 	}
 
 	/**
