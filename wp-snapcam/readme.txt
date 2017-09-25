@@ -1,10 +1,10 @@
 === WP Snapcam ===
 Contributors: mnttech
 Donate link: https://mnt-tech.fr
-Tags: snap, webcam, cam, picture, wp-snapcam, wp-facethumb, snapchat
+Tags: snap, webcam, cam, picture, camera
 Requires at least: 4.5
 Tested up to: 4.8.2
-Stable tag: 0.2
+Stable tag: 0.3
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -24,6 +24,8 @@ WP Snapcam uses [WebcamJS](https://pixlcore.com/read/WebcamJS).
 
 Thanks to [Free Vector Cartoon Character](http://vectorcharacters.net/) (Characters in the banner).
 
+In the future, when I'll find some good js library, I would like to add some cool effects like snapchat. If you own one or if you can help with this, just let me know.
+
 == Tags ==
 snap, webcam, cam, picture, wp-snapcam, wp-facethumb, snapchat
 
@@ -40,6 +42,9 @@ snap, webcam, cam, picture, wp-snapcam, wp-facethumb, snapchat
 3. Screenshot inside options menu.
 
 == Changelog ==
+
+= 0.3 =
+* Minor bugfix for options menu when translation is activated
 
 = 0.2 =
 * Fix translation bug in options menu

@@ -1,7 +1,7 @@
 <?php
 
 /**
- * This class add all menu pages and populate options submenu.
+ * This class adds all menu pages and populate options submenu.
  *
  * @since 0.1
  * @package    WP_Snapcam
@@ -104,26 +104,11 @@ class WP_Snapcam_Menu {
 				<?php
 				break;
 
-			case 'select':
-				?>
-				<select name="wp_snapcam_options[<?php echo esc_attr( $args['name'] ); ?>]">
-				<?php foreach ( $args['values'] as $value ) { ?>
-				 <option value="<?php echo esc_attr( $value ); ?>" <?php selected( $this->wp_snapcam_options[$args['name']], $value, true ); ?>>
-				 	<?php echo esc_html( $value ); ?>
-				 </option>
-				<?php } ?>
-				 </select>
-				<p class="description">
-					<?php echo esc_html( $args['long_description'] ); ?>
-				</p>
-				<?php
-				break;
-
 			case 'radio':
 				?>
 				<fieldset><p>
-				<?php foreach ( $args['values'] as $value ) { ?>
-					<label><input type="radio" name="wp_snapcam_options[<?php echo esc_attr( $args['name'] ); ?>]" value="<?php echo esc_attr( $value ); ?>" <?php checked( $this->wp_snapcam_options[$args['name']], $value, true ); ?>><?php echo esc_html( $value );?></label></br>
+				<?php foreach ( $args['values'] as $key => $value ) { ?>
+					<label><input type="radio" name="wp_snapcam_options[<?php echo esc_attr( $args['name'] ); ?>]" value="<?php echo esc_attr( $key ); ?>" <?php checked( $this->wp_snapcam_options[$args['name']], $key, true ); ?>><?php echo esc_html( $value );?></label></br>
 				<?php } ?>
 				 </select>
 				</p></fieldset>

@@ -23,8 +23,8 @@ $GLOBALS['wp_snapcam_default_options'] = array(
 		'short_description' => __( 'Snap in widget', 'wp-snapcam' ),
 		'long_description'  => __( 'Choose wether you want to print last snap in widget or a random one.', 'wp-snapcam' ),
 		'values'            => array (
-								__( 'last', 'wp-snapcam' ),
-								__( 'random', 'wp-snapcam' )
+								'last'   => __( 'last one', 'wp-snapcam' ),
+								'random' => __( 'random one', 'wp-snapcam' )
 							)
 	),
 	array(
@@ -32,11 +32,12 @@ $GLOBALS['wp_snapcam_default_options'] = array(
 		'type'              => 'radio',
 		'default'           => 'both',
 		'short_description' => __( 'Where links work', 'wp-snapcam' ),
-		'long_description'  => __( 'Choose where user submited links will be displayed.', 'wp-snapcam' ),
+		'long_description'  => __( 'Choose where user submited links will be displayed. Select none if you want to deactivate links everywhere.', 'wp-snapcam' ),
 		'values'            => array (
-								__( 'widget only', 'wp-snapcam' ),
-								__( 'gallery only', 'wp-snapcam' ),
-								__( 'both', 'wp-snapcam')
+								'widget only'  => __( 'widget only', 'wp-snapcam' ),
+								'gallery only' => __( 'gallery only', 'wp-snapcam' ),
+								'both'    => __( 'both', 'wp-snapcam' ),
+								'none'    => __( 'none', 'wp-snapcam' )
 							)
 	),
 	array(
