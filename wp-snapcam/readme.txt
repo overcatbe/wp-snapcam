@@ -3,8 +3,8 @@ Contributors: mnttech
 Donate link: https://mnt-tech.fr
 Tags: snap, webcam, cam, picture, camera
 Requires at least: 4.5
-Tested up to: 4.9.5
-Stable tag: 0.4
+Tested up to: 5.1.1
+Stable tag: 0.5
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -42,6 +42,9 @@ snap, webcam, cam, picture, wp-snapcam, wp-facethumb, snapchat
 3. Screenshot inside options menu.
 
 == Changelog ==
+
+= 0.5 =
+* Fix a bug in admin gallery on date
 
 = 0.4 =
 * Update webcamjs to v1.0.25

@@ -15,7 +15,7 @@
  * Plugin Name:       WP Snapcam
  * Plugin URI:        https://wordpress.org/plugins/wp-snapcam/
  * Description:       WP Snapcam allows your visitors to take a snap using webcam and send it to your WordPress server.
- * Version:           0.4
+ * Version:           0.5
  * Author:            Infogérance Serveur
  * Author URI:        https://mnt-tech.fr/
  * License:           GPL-2.0+
@@ -32,7 +32,7 @@ if ( ! defined( 'WPINC' ) ) {
 /**
  * Define version, name and db_version
  */
-define( 'WP_SNAPCAM_VERSION', '0.4' );
+define( 'WP_SNAPCAM_VERSION', '0.5' );
 define( 'WP_SNAPCAM_NAME', 'WP_SNAPCAM' );
 define( 'WP_SNAPCAM_DB_VERSION', '0.1' );
 
